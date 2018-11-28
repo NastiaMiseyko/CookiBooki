@@ -1,0 +1,39 @@
+body,html{
+	height: 100%;
+	margin:0;
+}
+
+
+#bg{
+	
+	height: 100%;
+	text-align: center;
+	padding-top: 25%;
+	color: white;
+	background:url("food.jpg");
+	background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.row img{
+width: 100%;
+opacity:0.8;
+}
+
+.row{
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+
+.line{
+margin-top: 15px;
+	margin-bottom: 15px;
+	color: blue;
+
+}
+
+.new-recipe{
+	margin-top: 7.0em;
+}

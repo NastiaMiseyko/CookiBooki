@@ -1,0 +1,22 @@
+<% include ./partials/header %>
+
+<div class="container new-recipe">
+<form action="/recipes" method="POST">
+        <div class="form-group">
+          <label>Title</label>
+          <input type="text" name="recipe[title]" class="form-control" placeholder="Title">
+        </div>
+        <div class="form-group">
+          <label>Image</label>
+          <input type="text" name="recipe[image]" class="form-control" placeholder="Image">
+        </div>
+        <div class="form-group" >
+                <label>Body</label>
+                <textarea class="form-control" name="recipe[body]"  rows="3"></textarea>
+        </div>
+        <button type="submit" class="btn btn-dark">Submit</button>
+      </form>
+    </div>
+
+
+<% include ./partials/footer %>

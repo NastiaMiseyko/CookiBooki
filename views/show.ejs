@@ -1,0 +1,12 @@
+<% include ./partials/header %>
+
+<div class="container new-recipe">
+  <div class="jumbotron">
+    <h1 class="display-4"><%= recipe.title %></h1>
+    <p class="lead"><%= recipe.created.toDateString() %></p>
+    <hr class="my-4">
+    <p><%= recipe.body %></p>
+    <img class="recipe"  src="<%= recipe.image %>"  alt="">
+  </div>
+</div>
+<% include ./partials/footer %>

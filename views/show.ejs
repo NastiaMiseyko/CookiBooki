@@ -5,8 +5,11 @@
     <h1 class="display-4"><%= recipe.title %></h1>
     <p class="lead"><%= recipe.created.toDateString() %></p>
     <hr class="my-4">
-    <p><%= recipe.body %></p>
-    <img class="recipe"  src="<%= recipe.image %>"  alt="">
+    <div class="d-flex justify-content-between">
+     <img class="recipe align-self-start"  src="<%= recipe.image %>"  alt="">
+      <p><%= recipe.body %></p>
+    </div>
+    
   </div>
 </div>
 <% include ./partials/footer %>

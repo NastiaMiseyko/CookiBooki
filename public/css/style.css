@@ -1,6 +1,11 @@
 body,html{
 	height: 100%;
 	margin:0;
+	background:url("food.jpg");
+	background-position: center;
+    background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
 }
 
 
@@ -8,32 +13,37 @@ body,html{
 	
 	height: 100%;
 	text-align: center;
-	padding-top: 25%;
+	padding-top: 20%;
 	color: white;
-	background:url("food.jpg");
-	background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-
 }
+
 
 .row img{
 width: 100%;
 opacity:0.8;
 }
 
+.row img:hover{
+	
+	opacity:1;
+	}
+
 .row{
 	margin-top: 15px;
 	margin-bottom: 15px;
+	display:flex;
+	flex-wrap: wrap;
 }
-
-.line{
-margin-top: 15px;
-	margin-bottom: 15px;
-	color: blue;
-
+.row a{
+	color: grey;
+	
 }
 
 .new-recipe{
 	margin-top: 7.0em;
 }
+
+.new-recipe img{
+	width: 30%;
+}
+
